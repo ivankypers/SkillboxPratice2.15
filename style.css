@@ -55,7 +55,7 @@ figure {
   background-color: #070217;
 }
 .logo {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .main-menu {
@@ -94,8 +94,9 @@ figure {
 /********************************************************************************************************/
 .container {
   margin: 0 auto;
-  padding: 80px 0;
-  max-width: 1170px;
+  padding: 50px 20px;
+  width: 1170px;
+  max-width: 100%;
 }
 
 .article-title{
@@ -177,4 +178,89 @@ figcaption {
   font-weight: 400;
   font-size: 14px;
   text-align: center;
+}
+
+/*******-----------------------------------------------------MODULES--------------------------------------------------------------****/
+
+.nav-item {
+  color: #3F2AFF;
+
+
+  background-image: url("img/Arrow.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 35px;
+  padding-left: 41px;
+
+}
+
+.modules-title {
+  color: #3F2AFF;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.cards{
+  margin-bottom: 50px;
+}
+
+.cards-holder {
+  display: flex;
+}
+
+.card {
+  position: relative;
+  width: 572px;
+  height: 505px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) ;
+
+}
+
+.card:not(:last-child) {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.card-wrapper {
+  padding: 25px;
+
+}
+
+.card-title {
+  color: #3F2AFF;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+
+
+.card-dsc {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 165%;
+}
+
+.card-number {
+  color: #EAEAEA;
+  position: absolute;
+  font-weight: 400;
+  font-size: 40px;
+  bottom: 25px;
+  right: 25px;
+}
+
+.modules-more {
+  text-align: center;
+}
+
+.modules-more-link {
+  display: inline-block;
+  padding: 24px 75px;
+  border: 2px solid #3F2AFF;
+  color: #3F2AFF;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
